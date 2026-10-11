@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ead8c9" />
+    <meta name="description" content="La historia de Jesús Navas Guerrero, contada en seis niveles: formación, experiencia, proyectos e ideas." />
+    <title>Jesús Navas Guerrero — Archivo personal</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#inicio" aria-label="Jesús Navas, volver al inicio">
+          <span class="brand-mark">JN.</span>
+          <span class="brand-sub">ARCHIVO PERSONAL<br />EST. 2026</span>
+        </a>
+        <nav class="topnav" aria-label="Navegación principal">
+          <a href="#niveles">NIVELES</a>
+          <a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+        </nav>
+        <span class="online">MODO HISTORIA / ON</span>
+      </header>
+
+      <main id="inicio">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div class="eyebrow">PORTFOLIO PERSONAL / 001</div>
+            <h1 id="hero-title">Jesús Navas<br /><em>Guerrero.</em></h1>
+            <p>Física, ingeniería aeroespacial e ideas que se convierten en proyectos. Este es un espacio para recorrer lo que he aprendido, construido y pensado hasta ahora.</p>
+            <a class="start-button" href="#niveles"><span aria-hidden="true">[ ▶ ]</span> EMPEZAR PARTIDA <span class="button-arrow" aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-aside" aria-label="Guía de la página">
+            <span class="aside-label">INSTRUCCIONES / 01</span>
+            <p>Una historia<br />en seis niveles.</p>
+            <span class="aside-rule"></span>
+            <span class="aside-detail">ELIGE UNA SECCIÓN<br />Y SIGUE EXPLORANDO →</span>
+          </div>
+        </section>
+
+        <section class="levels" id="niveles" aria-labelledby="levels-title">
+          <div class="section-heading">
+            <div><div class="eyebrow">ÍNDICE / 06 NIVELES</div><h2 id="levels-title">Selecciona un nivel.</h2></div>
+            <p>Cada sección abre una parte distinta del recorrido.</p>
+          </div>
+          <div class="level-grid">
+            <a class="level-card" href="#sobre-mi" data-level="sobre-mi" data-number="01"><span class="card-top"><span class="level-id">NIVEL 01 / INTRO</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Sobre mí</strong><small>EL PERSONAJE DETRÁS DE LA PARTIDA</small></span></a>
+            <a class="level-card" href="#formacion" data-level="formacion" data-number="02"><span class="card-top"><span class="level-id">NIVEL 02 / ORIGEN</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Formación</strong><small>LA RUTA DEL CONOCIMIENTO</small></span></a>
+            <a class="level-card" href="#reconocimientos" data-level="reconocimientos" data-number="03"><span class="card-top"><span class="level-id">NIVEL 03 / LOGROS</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Reconocimientos</strong><small>HITOS DESBLOQUEADOS</small></span></a>
+            <a class="level-card" href="#experiencia" data-level="experiencia" data-number="04"><span class="card-top"><span class="level-id">NIVEL 04 / MISIONES</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Experiencia</strong><small>DONDE LA TEORÍA SE PONE A PRUEBA</small></span></a>
+            <a class="level-card" href="#proyectos" data-level="proyectos" data-number="05"><span class="card-top"><span class="level-id">NIVEL 05 / CREACIÓN</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Proyectos</strong><small>IDEAS QUE SALEN DE LA PANTALLA</small></span></a>
+            <a class="level-card" href="#reflexiones" data-level="reflexiones" data-number="06"><span class="card-top"><span class="level-id">NIVEL 06 / DIARIO</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Reflexiones personales</strong><small>IDEAS EN PROCESO</small></span></a>
+          </div>
+          <p class="keyboard-hint">DENTRO DE UN NIVEL: <span>←</span> <span>→</span> PARA CAMBIAR · <span>ESC</span> PARA SALIR</p>
+        </section>
+
+        <footer class="footer"><div>FIN DE PANTALLA / CONTINUARÁ</div><span>JESÚS NAVAS GUERRERO © 2026</span><a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">CONECTAR ↗</a></footer>
+      </main>
+    </div>
+
+    <div class="screen" id="screen" aria-hidden="true">
+      <div class="screen-backdrop" data-close="true"></div>
+      <section class="screen-panel" role="dialog" aria-modal="true" aria-labelledby="screen-title" tabindex="-1">
+        <div class="screen-topbar"><span id="screen-counter">LEVEL 01 / 06</span><button class="close-button" type="button" aria-label="Cerrar nivel">× <span>CERRAR</span></button></div>
+        <div class="screen-scroll"><div class="screen-header"><span class="screen-kicker" id="screen-kicker"></span><h2 id="screen-title"></h2><p id="screen-intro"></p></div><div class="screen-content" id="screen-content"></div></div>
+        <div class="screen-bottom"><button type="button" id="prev-level">← ANTERIOR</button><span id="screen-progress" aria-hidden="true"></span><button type="button" id="next-level">SIGUIENTE →</button></div>
+      </section>
+    </div>
+  </body>
+</html>
