@@ -4,72 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ead8c9" />
-    <meta name="description" content="La historia de Jesús Navas Guerrero, contada en seis niveles: formación, experiencia, proyectos e ideas." />
-    <title>Jesús Navas Guerrero — Archivo personal</title>
+    <meta name="description" content="Portfolio personal de Jesús Navas Guerrero: formación, experiencia, proyectos y reflexiones." />
+    <title>Jesús Navas Guerrero — Portfolio personal</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
-    <script defer src="./app.js"></script>
   </head>
   <body>
-    <div class="site-shell">
-      <header class="topbar">
-        <a class="brand" href="#inicio" aria-label="Jesús Navas, volver al inicio">
-          <span class="brand-mark">JN.</span>
-          <span class="brand-sub">ARCHIVO PERSONAL<br />EST. 2026</span>
-        </a>
-        <nav class="topnav" aria-label="Navegación principal">
-          <a href="#niveles">NIVELES</a>
-          <a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
-        </nav>
-        <span class="online">MODO HISTORIA / ON</span>
-      </header>
+    <header class="site-header">
+      <div class="header-top">
+        <a class="brand" href="#inicio" aria-label="Volver al inicio">JN.</a>
+        <span class="header-label">PORTFOLIO PERSONAL</span>
+        <a class="header-link" href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+      </div>
+      <nav class="category-nav" aria-label="Categorías">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#reconocimientos">Reconocimientos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#reflexiones">Reflexiones personales</a>
+      </nav>
+    </header>
 
-      <main id="inicio">
-        <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-copy">
-            <div class="eyebrow">PORTFOLIO PERSONAL / 001</div>
-            <h1 id="hero-title">Jesús Navas<br /><em>Guerrero.</em></h1>
-            <p>Física, ingeniería aeroespacial e ideas que se convierten en proyectos. Este es un espacio para recorrer lo que he aprendido, construido y pensado hasta ahora.</p>
-            <a class="start-button" href="#niveles"><span aria-hidden="true">[ ▶ ]</span> EMPEZAR PARTIDA <span class="button-arrow" aria-hidden="true">↓</span></a>
-          </div>
-          <div class="hero-aside" aria-label="Guía de la página">
-            <span class="aside-label">INSTRUCCIONES / 01</span>
-            <p>Una historia<br />en seis niveles.</p>
-            <span class="aside-rule"></span>
-            <span class="aside-detail">ELIGE UNA SECCIÓN<br />Y SIGUE EXPLORANDO →</span>
-          </div>
-        </section>
-
-        <section class="levels" id="niveles" aria-labelledby="levels-title">
-          <div class="section-heading">
-            <div><div class="eyebrow">ÍNDICE / 06 NIVELES</div><h2 id="levels-title">Selecciona un nivel.</h2></div>
-            <p>Cada sección abre una parte distinta del recorrido.</p>
-          </div>
-          <div class="level-grid">
-            <a class="level-card" href="#sobre-mi" data-level="sobre-mi" data-number="01"><span class="card-top"><span class="level-id">NIVEL 01 / INTRO</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Sobre mí</strong><small>EL PERSONAJE DETRÁS DE LA PARTIDA</small></span></a>
-            <a class="level-card" href="#formacion" data-level="formacion" data-number="02"><span class="card-top"><span class="level-id">NIVEL 02 / ORIGEN</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Formación</strong><small>LA RUTA DEL CONOCIMIENTO</small></span></a>
-            <a class="level-card" href="#reconocimientos" data-level="reconocimientos" data-number="03"><span class="card-top"><span class="level-id">NIVEL 03 / LOGROS</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Reconocimientos</strong><small>HITOS DESBLOQUEADOS</small></span></a>
-            <a class="level-card" href="#experiencia" data-level="experiencia" data-number="04"><span class="card-top"><span class="level-id">NIVEL 04 / MISIONES</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Experiencia</strong><small>DONDE LA TEORÍA SE PONE A PRUEBA</small></span></a>
-            <a class="level-card" href="#proyectos" data-level="proyectos" data-number="05"><span class="card-top"><span class="level-id">NIVEL 05 / CREACIÓN</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Proyectos</strong><small>IDEAS QUE SALEN DE LA PANTALLA</small></span></a>
-            <a class="level-card" href="#reflexiones" data-level="reflexiones" data-number="06"><span class="card-top"><span class="level-id">NIVEL 06 / DIARIO</span><span class="card-arrow">↗</span></span><span class="card-bottom"><strong>Reflexiones personales</strong><small>IDEAS EN PROCESO</small></span></a>
-          </div>
-          <p class="keyboard-hint">DENTRO DE UN NIVEL: <span>←</span> <span>→</span> PARA CAMBIAR · <span>ESC</span> PARA SALIR</p>
-        </section>
-
-        <footer class="footer"><div>FIN DE PANTALLA / CONTINUARÁ</div><span>JESÚS NAVAS GUERRERO © 2026</span><a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">CONECTAR ↗</a></footer>
-      </main>
-    </div>
-
-    <div class="screen" id="screen" aria-hidden="true">
-      <div class="screen-backdrop" data-close="true"></div>
-      <section class="screen-panel" role="dialog" aria-modal="true" aria-labelledby="screen-title" tabindex="-1">
-        <div class="screen-topbar"><span id="screen-counter">LEVEL 01 / 06</span><button class="close-button" type="button" aria-label="Cerrar nivel">× <span>CERRAR</span></button></div>
-        <div class="screen-scroll"><div class="screen-header"><span class="screen-kicker" id="screen-kicker"></span><h2 id="screen-title"></h2><p id="screen-intro"></p></div><div class="screen-content" id="screen-content"></div></div>
-        <div class="screen-bottom"><button type="button" id="prev-level">← ANTERIOR</button><span id="screen-progress" aria-hidden="true"></span><button type="button" id="next-level">SIGUIENTE →</button></div>
+    <main id="inicio" class="site-main">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">HOLA, SOY</p>
+        <h1 id="hero-title">Jesús Navas<br /><span>Guerrero.</span></h1>
+        <p class="hero-summary">Física, ingeniería aeroespacial e ideas que se convierten en proyectos. Este es un espacio para contar lo que he aprendido, construido y pensado hasta ahora.</p>
       </section>
-    </div>
+
+      <section id="sobre-mi" class="content-section" aria-labelledby="sobre-mi-title">
+        <div class="section-heading"><h2 id="sobre-mi-title">Sobre mí</h2><p>CIENCIA · INGENIERÍA · IDEAS</p></div>
+        <div class="section-body">
+          <p class="lead">Me muevo entre la investigación científica, la ingeniería y la creación de productos. Mi trabajo ha pasado por modelos de plasma solar, materiales aeroespaciales y una plataforma digital de alquiler.</p>
+          <div class="fact-grid">
+            <div><span>FORMACIÓN BASE</span><strong>Física e ingeniería aeroespacial</strong></div>
+            <div><span>INTERESES</span><strong>Modelización, simulación y producto</strong></div>
+            <div><span>HERRAMIENTAS</span><strong>Investigar, programar y construir</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="formacion" class="content-section" aria-labelledby="formacion-title">
+        <div class="section-heading"><h2 id="formacion-title">Formación</h2><p>RECORRIDO ACADÉMICO</p></div>
+        <div class="section-body">
+          <div class="education-grid">
+            <article class="education-card"><span class="meta">2020–2024 · BARCELONA</span><h3>Ingeniería Aeroespacial</h3><p class="organization">UPC · ESEIAAT · CFIS</p><p>Mecánica, dinámica de fluidos, ecuaciones diferenciales y modelización aplicada.</p></article>
+            <article class="education-card"><span class="meta">2021–2024 · BARCELONA</span><h3>Ingeniería Física</h3><p class="organization">UPC · ETSETB · CFIS</p><p>Electromagnetismo, física cuántica, estado sólido y matemáticas avanzadas.</p></article>
+            <article class="education-card"><span class="meta">DESDE 2025 · LONDRES</span><h3>Advanced Mechanical Engineering</h3><p class="organization">MSc · Imperial College London</p><p>Dinámica de fluidos computacional, modelización estocástica, optimización y métodos numéricos.</p></article>
+          </div>
+          <p class="section-note">Los dos grados se cursaron simultáneamente dentro del programa CFIS de la UPC.</p>
+        </div>
+      </section>
+
+      <section id="reconocimientos" class="content-section" aria-labelledby="reconocimientos-title">
+        <div class="section-heading"><h2 id="reconocimientos-title">Reconocimientos</h2><p>HITOS DEL RECORRIDO</p></div>
+        <div class="section-body">
+          <div class="row-list">
+            <article class="text-row"><span class="meta">2025</span><div><h3>Becario de la Fundación «la Caixa»</h3><p>Distinción incluida en el CV para continuar la formación de posgrado.</p></div></article>
+            <article class="text-row"><span class="meta">2025</span><div><h3>Oferta de doctorado de la NASA</h3><p>Oferta en el ámbito de la física de plasmas, según el CV.</p></div></article>
+            <article class="text-row"><span class="meta">2020</span><div><h3>Finalista · mejor trabajo de bachillerato de Cataluña</h3><p>Reconocimiento académico al trabajo de investigación de bachillerato.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="content-section" aria-labelledby="experiencia-title">
+        <div class="section-heading"><h2 id="experiencia-title">Experiencia</h2><p>INVESTIGACIÓN · INDUSTRIA · PRODUCTO</p></div>
+        <div class="section-body">
+          <div class="row-list">
+            <article class="text-row"><span class="meta">DESDE SEP 2025<br />LONDRES</span><div><h3>Investigación de máster · materiales aeroespaciales</h3><p class="organization">Rolls-Royce × Imperial College London</p><p>Modelos estocásticos y numéricos para estudiar coeficientes de fricción dependientes de la temperatura en nuevas aleaciones.</p></div></article>
+            <article class="text-row"><span class="meta">AGO 2024 – JUL 2025<br />WASHINGTON, D. C.</span><div><h3>Investigador · física de plasmas</h3><p class="organization">NASA Goddard Space Flight Center</p><p>Modelos de magnetohidrodinámica computacional para estructuras magnéticas solares y pipelines de datos en Python para predicción del clima espacial.</p></div></article>
+            <article class="text-row"><span class="meta">DESDE MAR 2024<br />BARCELONA</span><div><h3>Fundador y CEO</h3><p class="organization">Attendirent</p><p>Creación de una plataforma de alquiler con React Native y Supabase, análisis en tiempo real e integraciones de seguros.</p></div></article>
+          </div>
+          <p class="section-note">Las fechas de inicio proceden del CV de noviembre de 2025; la situación actual de los roles está pendiente de revisión.</p>
+        </div>
+      </section>
+
+      <section id="proyectos" class="content-section" aria-labelledby="proyectos-title">
+        <div class="section-heading"><h2 id="proyectos-title">Proyectos</h2><p>TRABAJO CONCRETO</p></div>
+        <div class="section-body">
+          <div class="project-grid">
+            <article class="project-card"><span class="meta">PLATAFORMA DIGITAL</span><h3>Attendirent</h3><p>Marketplace de alquiler construido con React Native y Supabase, con analítica en tiempo real e integración automatizada de seguros.</p></article>
+            <article class="project-card"><span class="meta">INVESTIGACIÓN</span><h3>Modelos de plasma solar</h3><p>Modelización de estructuras magnéticas solares mediante ecuaciones diferenciales y simulación MHD computacional en NASA Goddard.</p></article>
+            <article class="project-card"><span class="meta">DOCENCIA · 2022–2023</span><h3>Problemas de mecánica de fluidos</h3><p>Coautoría de problemas para un libro de mecánica de fluidos computacional de la UPC, con métodos numéricos y flujos de alta velocidad.</p></article>
+            <article class="project-card"><span class="meta">ROBÓTICA · 2016–2019</span><h3>Liga Nacional de Robótica</h3><p>Responsabilidad de hardware y software: algoritmos, programación embebida, control y fusión de sensores.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="reflexiones" class="content-section" aria-labelledby="reflexiones-title">
+        <div class="section-heading"><h2 id="reflexiones-title">Reflexiones personales</h2><p>IDEAS EN PROCESO</p></div>
+        <div class="section-body">
+          <p class="lead">Un espacio para escribir con calma sobre lo que aprendo, cuestiono y quiero explorar.</p>
+          <p class="section-note">La primera reflexión está por escribir.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>JESÚS NAVAS GUERRERO © 2026</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
   </body>
 </html>
