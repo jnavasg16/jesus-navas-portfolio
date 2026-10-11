@@ -1,6 +1,6 @@
 # Jesús Navas Guerrero · portfolio
 
-Web personal estática con seis categorías visibles en la navegación superior. El diseño usa una paleta cálida de tonos carne y marrón, con el texto como elemento principal.
+Web personal estática con seis categorías visibles en la navegación superior. El diseño mantiene una base cálida y usa tonos sobrios de marrón, verde, terracota, azul, malva y oliva, con el texto como elemento principal.
 
 GitHub Pages publica directamente la carpeta `docs/` de la rama `main`. No hace falta instalar dependencias ni ejecutar un build.
 
