@@ -1,9 +1,9 @@
 :root{--paper:#fff;--ink:#171717;--muted:#666;--line:#dedede;--sans:"DM Sans",Arial,sans-serif;--pixel:"Pixelify Sans",monospace;--mono:"Space Mono",monospace}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;min-width:320px;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+body{margin:0;min-width:320px;background:var(--paper);color:var(--ink);font-family:var(--pixel);-webkit-font-smoothing:none;text-rendering:optimizeSpeed}
 a{color:inherit;text-decoration:none}
-h1,h2,h3,.brand,.category-nav a,.button-link,.text-link,.page-next a{font-family:var(--pixel)}
+h1,h2,h3,.brand,.category-nav a,.button-link,.text-link,.page-next a{font-family:var(--pixel);letter-spacing:0}
 a:focus-visible{outline:2px solid var(--ink);outline-offset:5px}
 .site-header{border-bottom:1px solid var(--line)}
 .header-inner{width:min(100% - 48px,1000px);min-height:78px;margin:auto;display:flex;align-items:center;gap:38px}
@@ -62,7 +62,7 @@ figure{margin:0}
 .home-intro{font-size:19px;max-width:490px}
 .hero-detail{max-width:430px;color:var(--muted);font-size:14px;line-height:1.75;margin:20px 0 0}
 .hero-actions,.action-row{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:26px}
-.button-link{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:13px 18px;border:2px solid var(--ink);background:var(--ink);color:#fff;font-size:12px;font-weight:600;line-height:1.5;letter-spacing:.02em;box-shadow:4px 4px 0 #c8c8c8;transition:transform .12s,box-shadow .12s,background .12s}
+.button-link{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:14px 19px;border:3px solid var(--ink);background:var(--ink);color:#fff;font-size:13px;font-weight:600;line-height:1.5;box-shadow:5px 5px 0 #c8c8c8;transition:transform .12s,box-shadow .12s,background .12s}
 .button-link:hover{background:#3c3c3c;transform:translate(2px,2px);box-shadow:2px 2px 0 #c8c8c8}
 .button-link:active{transform:translate(4px,4px);box-shadow:none}
 .text-link{display:inline-block;font-size:12px;font-weight:600;line-height:1.7;text-decoration:underline;text-underline-offset:4px}
