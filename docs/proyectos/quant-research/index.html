@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Investigación cuantitativa de Jesús Navas Guerrero (2024–2026): correlaciones entre mercados y ventajas condicionadas a la tendencia y la volatilidad. Sin estrategia ganadora generalizable validada en frecuencias no HFT." />
+    <title>Quant Research — Proyectos — Jesús Navas Guerrero</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="../../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="../../assets/fonts/libre-baskerville-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="../../portfolio.css?v=20261101-quant-hypotheses" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header"><div class="header-inner">
+      <a class="site-name" href="../../formacion/">Jesús Navas</a>
+      <nav class="category-nav" aria-label="Categorías"><a href="../../formacion/">Formación</a><a href="../../reconocimientos/">Reconocimientos</a><a href="../../experiencia/">Experiencia</a><a href="../" aria-current="location">Proyectos</a></nav>
+    </div></header>
+
+    <main id="contenido" class="page-main">
+      <a class="text-link project-back" href="../"><span aria-hidden="true">←</span> Volver a proyectos</a>
+      <section class="page-intro project-detail-intro">
+        <p class="project-meta">Trading · Análisis de mercados · 2024–2026</p>
+        <h1 class="page-title">Quantitative Research</h1>
+        <p class="page-deck">Hipótesis de mercado, correlaciones y decisiones basadas en evidencia.</p>
+        <div class="project-organizations" aria-label="Tecnología y mercado estudiado">
+          <a class="project-organization project-organization--wordmark" href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+            <img src="../../assets/logos/python.svg" alt="" decoding="async" />
+            <span><strong>Python</strong><small>Infraestructura de investigación</small></span>
+          </a>
+          <a class="project-organization project-organization--wordmark" href="https://docs.polymarket.com/" target="_blank" rel="noopener noreferrer">
+            <img src="../../assets/logos/polymarket.png" alt="" width="911" height="168" decoding="async" />
+            <span><strong>Polymarket</strong><small>Mercado estudiado</small></span>
+          </a>
+        </div>
+      </section>
+      <div class="project-detail-layout">
+        <figure class="project-detail-media project-detail-media--research">
+          <img src="../../assets/images/quant-research.svg?v=20261101-candles" alt="Gráfico histórico de BTC/USDT con 72 velas de cinco minutos, volumen y medias móviles de 9 y 21 períodos" width="1200" height="600" decoding="async" />
+          <figcaption>BTC/USDT · Velas de 5 minutos, volumen y medias móviles · 11 de enero de 2024 (UTC). <a class="text-link" href="https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&amp;interval=5m&amp;startTime=1704988800000&amp;limit=72" target="_blank" rel="noopener noreferrer">Datos de Binance <span aria-hidden="true">↗</span></a></figcaption>
+        </figure>
+        <div class="project-detail-content">
+          <p class="project-description">Investigación propia para identificar oportunidades de trading a partir de relaciones entre activos y mercados, correlaciones y diferencias de valoración. Una de las líneas de trabajo fue el análisis de contratos Bitcoin Up/Down de cinco minutos en Polymarket.</p>
+          <p class="project-description">La pregunta central era si una relación observada podía convertirse en una ventaja económica reproducible. Convertí ideas en hipótesis comprobables, construí las herramientas para contrastarlas y evalué qué conclusiones permitían los datos.</p>
+          <section class="project-hypotheses" aria-labelledby="quant-hypotheses-title">
+            <h2 id="quant-hypotheses-title">Hipótesis de trabajo</h2>
+            <article class="project-hypothesis">
+              <span class="project-hypothesis-number" aria-hidden="true">01</span>
+              <div>
+                <h3>Relaciones entre mercados</h3>
+                <p>¿Las correlaciones entre activos y mercados relacionados podían aportar información útil para anticipar movimientos o identificar diferencias de valoración? Investigué la utilidad de esas relaciones como señales candidatas.</p>
+              </div>
+            </article>
+            <article class="project-hypothesis">
+              <span class="project-hypothesis-number" aria-hidden="true">02</span>
+              <div>
+                <h3>Información adicional al precio</h3>
+                <p>¿Los modelos y los indicadores aportaban información que el propio mercado no recogía? Contrasté sus probabilidades con el precio del contrato y con referencias simples para valorar su aportación real.</p>
+              </div>
+            </article>
+            <article class="project-hypothesis">
+              <span class="project-hypothesis-number" aria-hidden="true">03</span>
+              <div>
+                <h3>Una ventaja que sobreviviera a la ejecución</h3>
+                <p>¿Una señal prometedora seguía siendo útil fuera de muestra y después de comisiones, deslizamiento y latencia? La hipótesis debía mantenerse al incorporar las condiciones de ejecución.</p>
+              </div>
+            </article>
+          </section>
+          <section class="project-milestones" aria-labelledby="quant-method-title">
+            <h2 id="quant-method-title">Cómo contrasté las ideas</h2>
+            <ul>
+              <li><strong>Datos comparables.</strong> Integré datos de BTC, ETH y SOL y de contratos de Polymarket, alineando su disponibilidad temporal para estudiar relaciones y construir variables explicativas.</li>
+              <li><strong>Pruebas fuera de muestra.</strong> Separé entrenamiento, calibración y evaluación; comparé modelos complejos con referencias simples y revisé los resultados sobre contratos comparables.</li>
+              <li><strong>Viabilidad económica.</strong> Simulé la ejecución con profundidad del libro, comisiones, deslizamiento y latencia, y contrasté la sensibilidad de los resultados a los costes.</li>
+            </ul>
+          </section>
+          <section class="project-result" aria-labelledby="quant-result-title">
+            <h2 id="quant-result-title">Resultados y aprendizaje</h2>
+            <p><strong>Se encontraron ventajas (edges) que se mantenían en determinados periodos de tendencia marcada o bajo condiciones específicas de volatilidad.</strong></p>
+            <p>Estas ventajas dependían del régimen de mercado. No se validó una estrategia ganadora generalizable en las frecuencias no HFT estudiadas.</p>
+            <p>El aprendizaje fue identificar en qué condiciones una señal aportaba valor y reconocer sus límites. Una correlación, una buena predicción y una estrategia económicamente ejecutable requieren evidencias diferentes.</p>
+          </section>
+          <details class="project-engineering">
+            <summary>Infraestructura técnica</summary>
+            <div class="project-engineering-content">
+              <p>Desarrollé en Python un entorno de investigación, simulación y seguimiento para reproducir los experimentos.</p>
+              <ul>
+                <li><strong>Datos y validación.</strong> Pipelines <span lang="en">point-in-time</span>, controles contra fugas de información y evaluación temporal <span lang="en">walk-forward</span>.</li>
+                <li><strong>Modelos.</strong> Regresión logística, XGBoost, redes LSTM, fusión multimodal y calibración de probabilidades.</li>
+                <li><strong>Actualización continua.</strong> Reentrenamiento incremental en segundo plano y activación del modelo nuevo entre contratos.</li>
+                <li><strong>Simulación.</strong> Motor de ejecución con profundidad, costes, latencia y límites de riesgo; pruebas automatizadas de indicadores, integridad temporal y resolución.</li>
+                <li><strong>Auditoría.</strong> Panel con indicadores, explicaciones y motivos de operar o abstenerse; modelos y calibraciones conservados por ventana para reproducir sus predicciones.</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="footer-inner"><span>© 2026 JESÚS NAVAS GUERRERO</span><a href="../../">VOLVER AL INICIO ↑</a><a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a></div></footer>
+  </body>
+</html>

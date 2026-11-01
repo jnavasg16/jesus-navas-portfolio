@@ -7,17 +7,39 @@
     <meta name="description" content="Experiencia de Jesús Navas Guerrero: Business Analysis en Entrepreneurs First, CEO y cofundador de Attendi e investigación con Rolls-Royce y NASA Goddard." />
     <title>Experiencia — Jesús Navas Guerrero</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../portfolio.css?v=20261029-experiencia-ef-sectores" />
+    <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="../assets/fonts/libre-baskerville-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="../portfolio.css?v=20261101-profile-five" />
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header"><div class="header-inner">
-      <a class="brand" href="../" aria-label="Jesús Navas Guerrero, inicio">JN</a>
-      <nav class="category-nav" aria-label="Categorías"><a href="../formacion/">Formación</a><a href="../reconocimientos/">Reconocimientos</a><a href="../experiencia/" aria-current="page">Experiencia</a><a href="../proyectos/">Proyectos</a><a href="../reflexiones/">Reflexiones personales</a><a href="../archivo/">Fotos y documentos</a></nav>
-    </div></header>
+      <a class="site-name" href="../formacion/">Jesús Navas</a>
+      <nav class="category-nav" aria-label="Categorías"><a href="../formacion/">Formación</a><a href="../reconocimientos/">Reconocimientos</a><a href="../experiencia/" aria-current="page">Experiencia</a><a href="../proyectos/">Proyectos</a></nav>
+    </div>
+      <nav class="profile-highlights" aria-label="Instituciones y trayectoria destacadas">
+        <a class="profile-highlight" href="../proyectos/nasa/" aria-label="NASA Goddard: investigación">
+          <span class="profile-highlight-logo"><img src="../assets/logos/nasa.svg" alt="" width="110" height="92" /></span>
+          <span class="profile-highlight-caption">Investigación</span>
+        </a>
+        <a class="profile-highlight" href="../formacion/#imperial-title" aria-label="Imperial College London: máster">
+          <span class="profile-highlight-logo profile-highlight-logo--imperial"><img src="../assets/logos/imperial.png" alt="" width="600" height="270" /></span>
+          <span class="profile-highlight-caption">Máster</span>
+        </a>
+        <a class="profile-highlight" href="../proyectos/rolls-royce/" aria-label="Rolls-Royce: investigación">
+          <span class="profile-highlight-logo"><img src="../assets/logos/rolls-royce.svg" alt="" width="59" height="96" /></span>
+          <span class="profile-highlight-caption">Investigación</span>
+        </a>
+        <a class="profile-highlight" href="../reconocimientos/#fellowship-title" aria-label="Fundación la Caixa: beca de posgrado">
+          <span class="profile-highlight-logo"><img src="../assets/logos/la-caixa.jpg" alt="" width="300" height="41" /></span>
+          <span class="profile-highlight-caption">Beca de posgrado</span>
+        </a>
+        <a class="profile-highlight" href="../experiencia/#entrepreneurs-first" aria-label="Entrepreneurs First: Business Analysis">
+          <span class="profile-highlight-logo"><img src="../assets/logos/entrepreneurs-first.svg" alt="" /></span>
+          <span class="profile-highlight-caption" lang="en">Business Analysis</span>
+        </a>
+      </nav>
+    </header>
 
     <main id="contenido" class="page-main experience-page">
       <section class="page-intro experience-intro" aria-labelledby="experience-title">
@@ -27,8 +49,8 @@
 
       <section class="experience-list" aria-label="Trayectoria profesional">
         <article class="experience-entry" id="entrepreneurs-first" aria-labelledby="ef-experience-title">
-          <div class="experience-brand">
-            <img class="experience-logo experience-logo--ef" src="../assets/logos/entrepreneurs-first.svg" alt="Entrepreneurs First" />
+          <div class="experience-brand institution-brand">
+            <div class="institution-mark"><img src="../assets/logos/entrepreneurs-first.svg" alt="Entrepreneurs First" /></div>
             <p class="experience-period"><span>Desde junio de 2026</span><span>Londres</span></p>
           </div>
           <div class="experience-content">
@@ -57,8 +79,8 @@
         </article>
 
         <article class="experience-entry" id="attendi" aria-labelledby="attendi-experience-title">
-          <div class="experience-brand">
-            <img class="experience-logo experience-logo--attendi" src="../assets/logos/attendi.png" alt="Attendi" width="240" height="240" />
+          <div class="experience-brand institution-brand">
+            <div class="institution-mark institution-mark--attendi"><img src="../assets/logos/attendi.png" alt="Attendi" width="240" height="240" /></div>
             <p class="experience-period"><span>2024–2026</span><span>Barcelona</span></p>
           </div>
           <div class="experience-content">
@@ -75,8 +97,8 @@
         </article>
 
         <article class="experience-entry" id="rolls-royce" aria-labelledby="rolls-experience-title">
-          <div class="experience-brand">
-            <img class="experience-logo experience-logo--rolls" src="../assets/logos/rolls-royce.svg" alt="Rolls-Royce" width="59" height="96" />
+          <div class="experience-brand institution-brand">
+            <div class="institution-mark"><img src="../assets/logos/rolls-royce.svg" alt="Rolls-Royce" width="59" height="96" /></div>
             <p class="experience-period"><span>2025–2026</span><span>Londres</span></p>
           </div>
           <div class="experience-content">
@@ -89,8 +111,8 @@
         </article>
 
         <article class="experience-entry" id="nasa" aria-labelledby="nasa-experience-title">
-          <div class="experience-brand">
-            <img class="experience-logo experience-logo--nasa" src="../assets/logos/nasa.svg" alt="NASA" width="110" height="92" />
+          <div class="experience-brand institution-brand">
+            <div class="institution-mark"><img src="../assets/logos/nasa.svg" alt="NASA" width="110" height="92" /></div>
             <p class="experience-period"><span>2024–2025</span><span>Greenbelt, Maryland</span></p>
           </div>
           <div class="experience-content">
@@ -107,8 +129,8 @@
         </article>
 
         <article class="experience-entry" id="cfis" aria-labelledby="cfis-experience-title">
-          <div class="experience-brand">
-            <img class="experience-logo experience-logo--cfis" src="../assets/logos/cfis.png" alt="CFIS" width="185" height="205" />
+          <div class="experience-brand institution-brand">
+            <div class="institution-mark"><img src="../assets/logos/cfis.png" alt="CFIS" width="186" height="206" /></div>
             <p class="experience-period"><span>Verano de 2022</span><span>UPC · ESEIAAT</span></p>
           </div>
           <div class="experience-content">
@@ -121,6 +143,6 @@
       </section>
     </main>
 
-    <footer class="site-footer"><div class="footer-inner"><span>© 2026 JESÚS NAVAS GUERRERO</span><a href="../">VOLVER AL INICIO ↑</a><a href="../archivo/">FOTOS Y DOCUMENTOS ↗</a><a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a></div></footer>
+    <footer class="site-footer"><div class="footer-inner"><span>© 2026 JESÚS NAVAS GUERRERO</span><a href="../">VOLVER AL INICIO ↑</a><a href="https://www.linkedin.com/in/jnavasg16/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a></div></footer>
   </body>
 </html>
