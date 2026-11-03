@@ -4,7 +4,7 @@ Web personal estática con cuatro páginas independientes: Formación, Reconocim
 
 GitHub Pages publica directamente la carpeta `docs/` de la rama `main`. No hace falta instalar dependencias ni ejecutar un build.
 
-Proyectos muestra tarjetas compactas del mismo tamaño que abren una página propia con la descripción y los hitos. El orden es Karajan, Attendi, Rolls-Royce, Quant Research y NASA. Las fichas están en los subdirectorios correspondientes de `docs/proyectos/`.
+Proyectos muestra tarjetas compactas del mismo tamaño que abren una página propia con la descripción y los hitos. El orden es Karajan, Heliosat, Reconversión inmobiliaria, Attendi, Rolls-Royce, Quant Research y NASA. Las fichas están en los subdirectorios correspondientes de `docs/proyectos/`.
 
 Las cuatro secciones tienen una franja destacada con NASA, Imperial, Rolls-Royce, Fundación «la Caixa» y Entrepreneurs First. Cada logo identifica el vínculo con la institución y enlaza al apartado correspondiente. La selección se mantiene visible al inicio de cada sección, independientemente de cuánto crezca la trayectoria; en móvil se distribuye en dos filas.
 

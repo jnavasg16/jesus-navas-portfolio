@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">De local comercial a vivienda</title>
+  <desc id="desc">Ilustración conceptual de una fachada comercial y una fachada residencial, conectadas por una flecha. No representa un inmueble concreto.</desc>
+  <path fill="#f2f0eb" d="M0 0h1200v600H0z"/>
+  <path d="M65 432h1070" stroke="#d7d4cd" stroke-width="2"/>
+  <g stroke="#203b4b" stroke-width="4" stroke-linejoin="round">
+    <path fill="#e4dfd5" d="M130 160h340v272H130zM730 160h340v272H730z"/>
+    <path fill="#f9f8f5" d="M122 144h356v30H122zM722 144h356v30H722z"/>
+    <path fill="#d8e1e3" d="M160 238h280v166H160z"/>
+    <path fill="#f9f8f5" d="M150 196h300v42H150z"/>
+    <path d="M340 238v166M352 313v25" fill="none"/>
+    <path fill="#c8d6dc" d="M763 218h116v108H763zM960 218h77v108h-77z"/>
+    <path d="M821 218v108M763 272h116M998 218v108M960 272h77" fill="none"/>
+    <path fill="#f9f8f5" d="M897 283h46v149h-46z"/>
+    <path d="M930 349v17" fill="none"/>
+    <path fill="#e4dfd5" d="M793 382h58l-5 50h-48zM981 382h35l-4 50h-27z"/>
+  </g>
+  <g fill="#73877a"><ellipse cx="821" cy="360" rx="30" ry="31"/><ellipse cx="1000" cy="361" rx="20" ry="26"/></g>
+  <path d="M540 292h120m-26-26 26 26-26 26" fill="none" stroke="#203b4b" stroke-width="4"/>
+  <g fill="#203b4b" font-family="Arial, sans-serif" font-size="25" letter-spacing="2" text-anchor="middle">
+    <text x="300" y="510">LOCAL COMERCIAL</text>
+    <text x="900" y="510">VIVIENDA</text>
+    <text x="600" y="351" font-size="16" letter-spacing="1" fill="#697578">CAMBIO DE USO</text>
+  </g>
+</svg>

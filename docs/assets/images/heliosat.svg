@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Meteorología espacial</title>
+  <desc id="desc">Esquema conceptual del Sol, una perturbación solar y un satélite en el entorno terrestre. No representa una predicción.</desc>
+  <defs>
+    <radialGradient id="sun"><stop stop-color="#fff0c9"/><stop offset="1" stop-color="#e3ad57"/></radialGradient>
+    <radialGradient id="earth" cx="30%" cy="30%"><stop stop-color="#d5e5e9"/><stop offset="1" stop-color="#54788a"/></radialGradient>
+  </defs>
+  <path fill="#101d2b" d="M0 0h1200v600H0z"/>
+  <g fill="#dce4eb" opacity=".5"><circle cx="84" cy="80" r="2"/><circle cx="360" cy="92" r="2"/><circle cx="580" cy="62" r="2"/><circle cx="810" cy="100" r="2"/><circle cx="1100" cy="78" r="2"/><circle cx="405" cy="490" r="2"/><circle cx="660" cy="510" r="2"/><circle cx="1120" cy="460" r="2"/></g>
+  <g fill="none" stroke="#edc785" stroke-width="3">
+    <circle cx="220" cy="300" r="116" opacity=".3"/>
+    <circle cx="220" cy="300" r="132" opacity=".15"/>
+    <path d="M376 208q130 92 0 184M451 178q184 122 0 244M542 150q223 150 0 300M641 127q244 173 0 346" opacity=".65"/>
+    <path d="M356 300h381" stroke-dasharray="7 12" opacity=".4"/>
+  </g>
+  <circle cx="220" cy="300" r="96" fill="url(#sun)"/>
+  <g fill="none" stroke="#81a8ba" stroke-width="2">
+    <ellipse cx="936" cy="300" rx="154" ry="112" transform="rotate(-24 936 300)" opacity=".55"/>
+    <path d="M1010 194c-155-94-280 14-280 106s125 200 280 106" opacity=".25"/>
+  </g>
+  <circle cx="936" cy="300" r="58" fill="url(#earth)"/>
+  <path d="m913 253 22 7 4 17-18 12 8 16-15 11-18-25 4-22Zm40 56 22 6-4 23-19 10-12-16Z" fill="#afc1ae" opacity=".85"/>
+  <g transform="translate(1047 222) rotate(-24)" stroke="#c6d8e2" stroke-width="3">
+    <path d="M-18-13h36v26h-36z" fill="#dce4eb"/>
+    <path d="M-66-19h38v38h-38zM28-19h38v38H28z" fill="#375c78"/>
+    <path d="M-47-19v38M47-19v38M-66 0h38M28 0h38M0-13v-18" fill="none"/>
+  </g>
+  <g fill="#e2e7ec" font-family="Arial, sans-serif" font-size="24" letter-spacing="2">
+    <text x="220" y="510" text-anchor="middle">SOL</text>
+    <text x="540" y="535" text-anchor="middle" fill="#b5bfca" font-size="20">PERTURBACIÓN SOLAR</text>
+    <text x="936" y="510" text-anchor="middle">ENTORNO TERRESTRE</text>
+  </g>
+</svg>

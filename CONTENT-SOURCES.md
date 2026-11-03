@@ -176,3 +176,13 @@ El usuario solicita los logos de Indra y Palantir en la tarjeta y la ficha, y pr
 - Indra: logo oficial oscuro de la cabecera de https://www.indragroup.com/es, servido en https://www.indragroup.com/cms-content/2025/06/indra-group-logo-dark.svg. Se guarda sin modificar en `docs/assets/logos/indra.svg`.
 - Palantir: SVG oficial incluido en el campo `logoSvg` de los datos de la portada https://www.palantir.com/. Se extrae sin modificar y se guarda en `docs/assets/logos/palantir.svg`.
 - Los logos identifican a los interlocutores con las etiquetas indicadas; no se presentan como clientes, patrocinadores o colaboraciones formalizadas.
+
+### Heliosat y reconversión inmobiliaria en Proyectos · 3 de noviembre de 2026
+
+El usuario solicita ambas entradas y precisa que deben incorporarse a Proyectos. Se añaden tarjetas y fichas propias en `docs/proyectos/heliosat/` y `docs/proyectos/reconversion-inmobiliaria/`. Confirma los siguientes hitos:
+
+- Heliosat: predicción de meteorología espacial, una carta de intenciones (LOI) de 60.000 € y otras dos LOI. Se presentan como validación comercial, sin convertirlas en ingresos facturados, inversión recibida ni contratos de venta ejecutados. El usuario confirma que se decidió no continuar por un tamaño de mercado insuficiente para una empresa financiable con capital riesgo; esta precisión sustituye el estado abierto del CV de octubre.
+- El cargo de fundador y CEO, el año 2026, Londres / Barcelona, los destinatarios de la plataforma y los modelos de eyecciones de masa coronal y riesgo geomagnético proceden del CV local `../cv/Jesus-Navas-Guerrero-CV.tex`. No se atribuye a EF ni se confunde con la iniciativa de IA.
+- Reconversión de un local comercial a vivienda: el usuario confirma la firma de un contrato de reserva sujeto al cambio de uso. Se describe como una operación en desarrollo, sin afirmar que la compra, la autorización, las obras o la venta estén completadas. No facilita un periodo, por lo que no se inventan fechas.
+- El análisis económico de operaciones de reconversión consta en la conversación «Analiza el Excel cambio de uso» (`01a19d50-7d21-7902-b4d3-0cafcfa8b186`), con costes de adquisición y reforma, alternativas de vivienda y escenarios de venta y rentabilidad. Se resume la actividad sin atribuir al local reservado una ubicación, superficies, cifras o resultados de otros estudios.
+- Las portadas son esquemas vectoriales conceptuales propios: no representan datos de predicción, un inmueble concreto ni un proyecto arquitectónico aprobado.
