@@ -186,3 +186,11 @@ El usuario solicita ambas entradas y precisa que deben incorporarse a Proyectos.
 - Reconversión de un local comercial a vivienda: el usuario confirma la firma de un contrato de reserva sujeto al cambio de uso. Se describe como una operación en desarrollo, sin afirmar que la compra, la autorización, las obras o la venta estén completadas. No facilita un periodo, por lo que no se inventan fechas.
 - El análisis económico de operaciones de reconversión consta en la conversación «Analiza el Excel cambio de uso» (`01a19d50-7d21-7902-b4d3-0cafcfa8b186`), con costes de adquisición y reforma, alternativas de vivienda y escenarios de venta y rentabilidad. Se resume la actividad sin atribuir al local reservado una ubicación, superficies, cifras o resultados de otros estudios.
 - Las portadas son esquemas vectoriales conceptuales propios: no representan datos de predicción, un inmueble concreto ni un proyecto arquitectónico aprobado.
+
+### Interlocutores de Heliosat y tres locales · 3 de noviembre de 2026
+
+El usuario pide añadir las conversaciones con Lockheed Martin y Airbus y sus logos en Heliosat. Se incorporan en la tarjeta y la ficha, con la etiqueta «Conversaciones». No se atribuyen a estas compañías las LOI ni se presentan como clientes o acuerdos comerciales.
+
+- Lockheed Martin: SVG oficial enlazado desde https://www.lockheedmartin.com/, guardado sin modificar desde https://www.lockheedmartin.com/content/dam/lockheed-martin/general/lm-logo.svg en `docs/assets/logos/lockheed-martin.svg`.
+- Airbus: SVG oficial blanco de la cabecera de https://www.airbus.com/, guardado sin modificar desde https://www.airbus.com/themes/custom/airbus_web_experience_ui/logo.svg en `docs/assets/logos/airbus.svg`. Se presenta en negro mediante CSS para hacerlo visible sobre blanco, variante contemplada en https://www.brand.airbus.com/en/asset-library/airbus-logo.
+- El usuario precisa que su actividad de reconversión inmobiliaria comprende hasta la fecha tres locales: dos en Pineda de Mar y uno en Tossa de Mar. Se actualizan la tarjeta, la ficha y su descripción para buscadores, sustituyendo el enfoque anterior de una única operación en desarrollo. Se conserva el hito del contrato de reserva condicionado al cambio de uso sin extrapolar esa condición a todos los locales ni atribuir ventas, fechas o rentabilidades no especificadas.
