@@ -221,3 +221,7 @@ El usuario solicita después reducir un poco más los títulos y volver a public
 ### Consultoría y comunicación eficaz en el máster · 4 de noviembre de 2026
 
 El usuario pide incluir una referencia a consultoría y comunicación eficaz en el apartado del máster. Se añade «Consultoría y comunicación eficaz» a las notas de Imperial College London. Strategy & Consulting figura en el CV local y la formación en comunicación de Imperial ya estaba documentada en la ampliación del 20 de octubre.
+
+El usuario amplía la petición a una descripción global del máster: asignaturas cursadas, orientación a consultoría tecnológica y análisis, varios cursos de comunicación eficaz para públicos no técnicos y técnicas de presentación, y participación activa en Imperial Entrepreneurship. El listado de materias procede del CV local: Nuclear Reactor Physics, Computational Fluid Dynamics, Finite Element Analysis, Advanced Stress Analysis, Aeroengine Technology y Strategy & Consulting. La orientación, las técnicas de presentación y la participación en Imperial Entrepreneurship las confirma directamente el usuario; no se atribuyen cargos, programas concretos ni premios de emprendimiento.
+
+Los cursos de comunicación se integran en la descripción del máster, conservando la fecha de noviembre de 2025 y el ancla `comunicacion-imperial`. Se retira el apartado independiente que repetía esa formación. El trabajo con Rolls-Royce, las calificaciones Distinction en las dos materias documentadas y la beca de la Fundación «la Caixa» permanecen en el mismo bloque.
