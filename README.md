@@ -6,6 +6,8 @@ GitHub Pages publica directamente la carpeta `docs/` de la rama `main`. No hace 
 
 Proyectos muestra tarjetas compactas del mismo tamaño que abren una página propia con la descripción y los hitos. El orden es Karajan, Heliosat, Reconversión inmobiliaria, Attendi, Rolls-Royce, Quant Research y NASA. Las fichas están en los subdirectorios correspondientes de `docs/proyectos/`.
 
+Los textos de Proyectos se orientan a la candidatura de Jesús a Associate en McKinsey Barcelona. El tono es impersonal, breve y descriptivo, con énfasis en responsabilidades, conversaciones y negociaciones, análisis y resultados. Karajan se presenta como un proyecto de defensa en el que fue CEO y cofundador. Los resultados y las cifras se limitan a lo documentado en `CONTENT-SOURCES.md`.
+
 Las cuatro secciones tienen una franja destacada con NASA, Imperial, Rolls-Royce, Fundación «la Caixa» y Entrepreneurs First. Cada logo identifica el vínculo con la institución y enlaza al apartado correspondiente. La selección se mantiene visible al inicio de cada sección, independientemente de cuánto crezca la trayectoria; en móvil se distribuye en dos filas.
 
 Para verla en local:
