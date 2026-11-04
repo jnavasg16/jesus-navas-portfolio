@@ -217,3 +217,7 @@ El usuario solicita la identidad de Navas Constructions, el enlace a su web y un
 El usuario solicita retirar los logos de la cabecera, reducir ligeramente la letra y volver a publicar. Se elimina la franja de instituciones de las cuatro secciones y se retiran sus reglas de estilo. La escala tipográfica se reduce aproximadamente un 5–6 %, con texto principal desde 17 px y auxiliar desde 14 px. Se actualiza la versión de la hoja de estilos en las once páginas para que los navegadores carguen el cambio. Los logos incluidos en el contenido de cada sección se conservan.
 
 El usuario solicita después reducir un poco más los títulos y volver a publicar. Se reduce la escala de los títulos principales y de sección aproximadamente un 8 % adicional, incluidas las tarjetas y los encabezados de las fichas. El cuerpo del texto y la navegación mantienen su tamaño. Se actualiza de nuevo la versión de la hoja de estilos en las once páginas.
+
+### Consultoría y comunicación eficaz en el máster · 4 de noviembre de 2026
+
+El usuario pide incluir una referencia a consultoría y comunicación eficaz en el apartado del máster. Se añade «Consultoría y comunicación eficaz» a las notas de Imperial College London. Strategy & Consulting figura en el CV local y la formación en comunicación de Imperial ya estaba documentada en la ampliación del 20 de octubre.
