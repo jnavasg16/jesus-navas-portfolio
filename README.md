@@ -8,7 +8,7 @@ Proyectos muestra tarjetas compactas del mismo tamaño que abren una página pro
 
 Los textos de Proyectos se orientan a la candidatura de Jesús a Associate en McKinsey Barcelona. El tono es impersonal, breve y descriptivo, con énfasis en responsabilidades, conversaciones y negociaciones, análisis y resultados. Karajan se presenta como un proyecto de defensa en el que fue CEO y cofundador. Los resultados y las cifras se limitan a lo documentado en `CONTENT-SOURCES.md`.
 
-Las cuatro secciones tienen una franja destacada con NASA, Imperial, Rolls-Royce, Fundación «la Caixa» y Entrepreneurs First. Cada logo identifica el vínculo con la institución y enlaza al apartado correspondiente. La selección se mantiene visible al inicio de cada sección, independientemente de cuánto crezca la trayectoria; en móvil se distribuye en dos filas.
+La cabecera de las cuatro secciones muestra el nombre y la navegación. Los logos aparecen junto a la formación, la experiencia, los reconocimientos y los proyectos correspondientes.
 
 Para verla en local:
 
@@ -20,7 +20,7 @@ La vista previa se abre en `http://127.0.0.1:8766/` y sirve siempre los archivos
 
 Las cuatro secciones aprovechan aproximadamente el 92 % del ancho de la pantalla, con márgenes adaptativos y sin un ancho máximo fijo para la página. Los textos, los logos y las fotografías también crecen en pantallas grandes. El menú y las columnas se reorganizan automáticamente según el espacio de la pantalla o del panel del navegador.
 
-La tipografía es compartida por las cuatro secciones: el texto principal parte de 18 px y los textos auxiliares de 15 px, y ambos aumentan con el ancho de la pantalla.
+La tipografía es compartida por las cuatro secciones: el texto principal parte de 17 px y los textos auxiliares de 14 px, y ambos aumentan con el ancho de la pantalla. Los titulares y las tarjetas usan una escala ligeramente más pequeña.
 
 Los titulares y «Jesús Navas» usan Libre Baskerville; el cuerpo y el menú usan Inter. La combinación se inspira en el estilo editorial de McKinsey sin utilizar su fuente Bower. Los archivos WOFF2 y sus licencias se incluyen en `docs/assets/fonts/`, sin peticiones a Google Fonts durante la navegación.
 
