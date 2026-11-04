@@ -1,6 +1,6 @@
 # Fuentes del portfolio
 
-Revisión: 20 de octubre de 2026. Actualización local basada en material público.
+Revisión inicial: 20 de octubre de 2026. Última revisión editorial: 4 de noviembre de 2026. Fuentes públicas y confirmaciones del usuario, distinguidas en las notas siguientes.
 
 - LinkedIn: https://www.linkedin.com/in/jnavasg16/ (vista pública indexada: MSc 2025–2026, Distinction en CFD y FEA, tema del TFM).
 - Publicación de Imperial / Rolls-Royce y fotografía: https://www.linkedin.com/posts/jnavasg16_imperialcollegelondon-lacaixa-rollsroyce-activity-7421462079758454784-Daez
@@ -241,3 +241,21 @@ El usuario confirma conversaciones con Pixxel, Lloyd’s, Sateliot y SES. Se añ
 ### Rayas en los textos · 4 de noviembre de 2026
 
 El usuario pide retirar los guiones que hacen sonar artificial la redacción. Se reescribe el inciso de la ficha de NASA con puntuación normal y se sustituyen las rayas de separación de los títulos de las pestañas por puntos medios. Esta preferencia queda recogida para futuras ediciones. Los intervalos de fechas y los nombres propios mantienen su grafía.
+
+### Revisión para selección en consultoría · 4 de noviembre de 2026
+
+El usuario solicita una revisión global de formalidad, coherencia y redacción. Se revisan las cuatro secciones y las siete fichas de proyectos. El criterio es presentar el trabajo y el razonamiento del candidato con precisión, sin atribuirle logros de las instituciones ni confundir propuestas con resultados. Se contrastan los criterios públicos de selección de McKinsey: https://www.mckinsey.com/careers/interviewing y https://www.mckinsey.com/careers/search-jobs/jobs/associate-15178. Esta revisión no se presenta como una evaluación interna de la firma ni como una certificación de autoría humana.
+
+- Attendi: Experiencia decía «aseguradora» pese a que la fuente confirmada identifica a la correduría Grupo Galilea. Se corrige la categoría y se unifican el acuerdo y los hitos de empresas y hoteles entre Experiencia y Proyectos. No se suman hoteles y empresas como clientes distintos ni se atribuyen ingresos.
+- NASA y Rolls-Royce: se conservan las denominaciones profesionales solicitadas por el usuario, con la capitalización habitual en español, y se explicitan la estancia para el TFG y el proyecto de fin de máster. La participación en Entrepreneurs First se identifica como programa, sin presentarla como empleo en la organización.
+- Inmobiliario: las tres operaciones siguen en desarrollo. El intervalo del 20–30 % se identifica como estimación de los estudios de viabilidad, no como rentabilidad obtenida. La reserva confirmada se atribuye a una operación, sin extender su estado a los tres locales. No se inventan la base de cálculo del porcentaje ni fechas de cierre.
+- Reconocimientos: se retiran la valoración conjunta del portfolio de EF, el ranking universitario, la escala de Goddard y el número de nuevos alumnos del CFIS. Se mantienen los logros personales y las fuentes de la beca y las ayudas.
+- El «Top 1 %» de EF, confirmado previamente por el usuario pero sin definición de su base, queda fuera de la versión revisada hasta precisar si representa tasa de admisión o posición individual. La consulta a https://www.joinef.com/faqs/ no permite acreditarlo.
+- La propuesta de continuidad de la investigación de NASA se denomina «propuesta de investigación doctoral». Queda pendiente identificar la universidad de matrícula y el carácter formal de la oferta; no se atribuye a NASA la concesión del título. La oferta de Imperial se mantiene según la confirmación previa del usuario.
+- Se conserva el periodo UPC 2020–2025 confirmado por el usuario y se explicita que las ayudas CFIS comienzan en 2021. No son fechas equivalentes.
+- Karajan conserva el foco en defensa y el razonamiento para vender a integradores. Se reducen repeticiones; el panel DJI y las pruebas propuestas no se presentan como integración validada ni despliegue en campo. Se retira la ilustración de incendios de la ficha y la tarjeta porque priorizaba la aplicación civil frente al foco de defensa; la tarjeta usa la identidad oficial del proyecto. No se afirma que la ilustración fuese generada por IA.
+- Heliosat conserva las tres cartas de intenciones, su importe y las conversaciones facilitadas por el usuario. Se explicita que el cierre se decidió a partir del análisis del mercado, sin atribuir las cartas a los interlocutores nombrados ni tratarlas como facturación.
+- Investigación cuantitativa usa el mismo título en tarjeta, ficha y pestaña. Se eliminan los bloques numerados que repetían la metodología y se conserva el detalle técnico desplegable. Los resultados siguen limitados a ciertas condiciones de tendencia y volatilidad, sin afirmar rentabilidad generalizable.
+- Formación adopta el tono impersonal del resto de la web. El contenido de ingeniería, consultoría, comunicación e Imperial Entrepreneurship procede de las mismas fuentes y confirmaciones ya documentadas. Se amplía el ancho de lectura en pantallas medianas, sin cambiar la escala tipográfica aprobada.
+
+La revisión de estilo no verifica por sí sola las cifras comerciales aportadas por el usuario. Antes de usar la web en una candidatura conviene poder explicar el alcance de cada acuerdo, el cálculo de las estimaciones inmobiliarias y las fechas y dedicación de las actividades simultáneas. El reconocimiento de bachillerato sigue teniendo pendiente la identificación del concurso, según la nota anterior.

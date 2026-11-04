@@ -6,7 +6,7 @@ GitHub Pages publica directamente la carpeta `docs/` de la rama `main`. No hace 
 
 Proyectos muestra tarjetas compactas del mismo tamaño que abren una página propia con la descripción y los hitos. El orden es Karajan, Heliosat, Reconversión inmobiliaria, Attendi, Rolls-Royce, Quant Research y NASA. Las fichas están en los subdirectorios correspondientes de `docs/proyectos/`.
 
-Los textos de Proyectos se orientan a la candidatura de Jesús a Associate en McKinsey Barcelona. El tono es impersonal, breve y descriptivo, con énfasis en responsabilidades, conversaciones y negociaciones, análisis y resultados. Se evitan las rayas como incisos. Karajan se presenta como un proyecto de defensa en el que fue CEO y cofundador. Los resultados y las cifras se limitan a lo documentado en `CONTENT-SOURCES.md`.
+Los textos se orientan a la candidatura de Jesús a Associate en McKinsey Barcelona. El tono es impersonal, breve y descriptivo, con énfasis en responsabilidades, conversaciones y negociaciones, análisis y resultados. Se evitan las rayas como incisos, los superlativos y las comparaciones de prestigio institucional. Las propuestas, las operaciones en desarrollo y los resultados obtenidos deben distinguirse con claridad. La experiencia académica se identifica como tal. Karajan se presenta como un proyecto de defensa en el que fue CEO y cofundador. Los resultados y las cifras se limitan a lo documentado en `CONTENT-SOURCES.md`.
 
 La cabecera de las cuatro secciones muestra el nombre y la navegación. Los logos aparecen junto a la formación, la experiencia, los reconocimientos y los proyectos correspondientes.
 
@@ -18,7 +18,7 @@ python3 scripts/preview.py
 
 La vista previa se abre en `http://127.0.0.1:8766/` y sirve siempre los archivos actuales, sin caché. Esto evita mezclar versiones antiguas del menú al cambiar de sección mientras se edita la web. Se puede elegir otro puerto con `--port`.
 
-Las cuatro secciones aprovechan aproximadamente el 92 % del ancho de la pantalla, con márgenes adaptativos y sin un ancho máximo fijo para la página. Los textos, los logos y las fotografías también crecen en pantallas grandes. El menú y las columnas se reorganizan automáticamente según el espacio de la pantalla o del panel del navegador.
+Las cuatro secciones aprovechan aproximadamente el 92 % del ancho de la pantalla, con márgenes adaptativos y sin un ancho máximo fijo para la página. Los textos, los logos y las fotografías también crecen en pantallas grandes. El menú y las columnas se reorganizan automáticamente según el espacio de la pantalla o del panel del navegador. En Formación, la fotografía de Imperial pasa a la columna lateral entre 721 y 1100 px para mantener un ancho de lectura suficiente.
 
 La tipografía es compartida por las cuatro secciones: el texto principal parte de 17 px y los textos auxiliares de 14 px, y ambos aumentan con el ancho de la pantalla. Los titulares y las tarjetas usan una escala ligeramente más pequeña.
 
