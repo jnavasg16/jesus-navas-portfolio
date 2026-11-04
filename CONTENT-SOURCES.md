@@ -237,3 +237,7 @@ El usuario explica que identificó pronto la preferencia de gobiernos, grandes i
 ### Conversaciones adicionales de Heliosat · 4 de noviembre de 2026
 
 El usuario confirma conversaciones con Pixxel, Lloyd’s, Sateliot y SES. Se añaden a la ficha de Heliosat junto a Lockheed Martin y Airbus, con la denominación «Conversaciones con el sector», y a su descripción para buscadores. No se atribuyen a estas organizaciones las cartas de intenciones ni acuerdos distintos de los documentados. Las grafías se contrastan en las webs oficiales: https://www.pixxel.space/, https://www.lloyds.com/market-resources/tools/crystal-plus/risk-location-guidance/class-of-business/space, https://sateliot.space/ y https://www.ses.com/company/about-us. En el contexto de seguros espaciales, «Lloyds» se interpreta como Lloyd’s.
+
+### Rayas en los textos · 4 de noviembre de 2026
+
+El usuario pide retirar los guiones que hacen sonar artificial la redacción. Se reescribe el inciso de la ficha de NASA con puntuación normal y se sustituyen las rayas de separación de los títulos de las pestañas por puntos medios. Esta preferencia queda recogida para futuras ediciones. Los intervalos de fechas y los nombres propios mantienen su grafía.
