@@ -267,3 +267,7 @@ El usuario precisa que «Top 1 %» se refiere a la tasa de admisión del program
 El usuario identifica The Catholic University of America (CUA) como universidad de la oferta de doctorado en física de plasmas vinculada a su investigación en NASA Goddard. Se actualizan Reconocimientos y Formación con la universidad y la denominación «oferta de doctorado». Se mantiene 2025 según la confirmación anterior y no se afirma matrícula, aceptación ni doctorado cursado.
 
 El nombre de la universidad y la existencia de su doctorado en Física se contrastan en https://physics.catholic.edu/academics/graduate/phd/index.html. La página institucional https://engineering.catholic.edu/physics/index.html describe su colaboración con NASA Goddard. Estas fuentes aportan contexto institucional; la oferta personal procede del usuario.
+
+### Reducción general de tipografía · 4 de noviembre de 2026
+
+El usuario solicita una reducción más visible del tamaño de letra de toda la web. Se reduce la escala compartida: texto principal de 15 a 17 px, auxiliar de 13 a 14 px, títulos principales de 28 a 52 px y títulos de sección de 22 a 29 px. Los títulos de las tarjetas pasan de 24 a 20 px y sus descripciones de 15 a 14 px. También se reducen los subtítulos y el nombre de la cabecera. Se limita especialmente el crecimiento con el ancho de la pantalla, que antes permitía texto de 32 px y títulos de 125 px. Se conserva el contenido y se actualiza la versión de la hoja de estilos en las once páginas de contenido antes de publicar.

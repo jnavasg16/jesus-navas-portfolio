@@ -20,7 +20,7 @@ La vista previa se abre en `http://127.0.0.1:8766/` y sirve siempre los archivos
 
 Las cuatro secciones aprovechan aproximadamente el 92 % del ancho de la pantalla, con márgenes adaptativos y sin un ancho máximo fijo para la página. Los textos, los logos y las fotografías también crecen en pantallas grandes. El menú y las columnas se reorganizan automáticamente según el espacio de la pantalla o del panel del navegador. En Formación, la fotografía de Imperial pasa a la columna lateral entre 721 y 1100 px para mantener un ancho de lectura suficiente.
 
-La tipografía es compartida por las cuatro secciones: el texto principal parte de 17 px y los textos auxiliares de 14 px, y ambos aumentan con el ancho de la pantalla. Los titulares y las tarjetas usan una escala ligeramente más pequeña.
+La tipografía es compartida por las cuatro secciones: el texto principal va de 15 a 17 px y los textos auxiliares de 13 a 14 px. Los títulos principales van de 28 a 52 px; los títulos de sección, de 22 a 29 px; y los de las tarjetas usan 20 px. El crecimiento queda limitado para evitar letra desproporcionada en pantallas grandes.
 
 Los titulares y «Jesús Navas» usan Libre Baskerville; el cuerpo y el menú usan Inter. La combinación se inspira en el estilo editorial de McKinsey sin utilizar su fuente Bower. Los archivos WOFF2 y sus licencias se incluyen en `docs/assets/fonts/`, sin peticiones a Google Fonts durante la navegación.
 
