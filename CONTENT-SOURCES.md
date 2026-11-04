@@ -229,3 +229,7 @@ Los cursos de comunicación se integran en la descripción del máster, conserva
 ### Denominación de los cargos en NASA y Rolls-Royce · 4 de noviembre de 2026
 
 El usuario indica las denominaciones «Investigador de Física de Plasmas» para NASA e «Ingeniero de Turbinas Aeronáuticas» para Rolls-Royce. Se actualizan los títulos de Experiencia, las tarjetas y las fichas de Proyectos, incluidas sus descripciones para buscadores. Se mantienen las fechas y el contexto de la estancia en NASA y del proyecto de máster con Rolls-Royce e Imperial College London.
+
+### Cliente objetivo y propuesta comercial de Karajan · 4 de noviembre de 2026
+
+El usuario explica que identificó pronto la preferencia de gobiernos, grandes instituciones y corporaciones por soluciones completas e integradas. Esto llevó a definir a los integradores de sistemas como cliente principal. La propuesta consistía en venderles un protocolo de interoperabilidad que facilitara la integración de equipos para que pudieran ofrecer una solución completa a sus clientes finales. Se incorpora este razonamiento a la ficha y se actualizan el subtítulo y la tarjeta de Karajan, manteniendo el tono impersonal. Se describe como planteamiento comercial, sin atribuir ventas cerradas, clientes adquiridos ni una validación técnica del protocolo.
