@@ -233,3 +233,7 @@ El usuario indica las denominaciones «Investigador de Física de Plasmas» para
 ### Cliente objetivo y propuesta comercial de Karajan · 4 de noviembre de 2026
 
 El usuario explica que identificó pronto la preferencia de gobiernos, grandes instituciones y corporaciones por soluciones completas e integradas. Esto llevó a definir a los integradores de sistemas como cliente principal. La propuesta consistía en venderles un protocolo de interoperabilidad que facilitara la integración de equipos para que pudieran ofrecer una solución completa a sus clientes finales. Se incorpora este razonamiento a la ficha y se actualizan el subtítulo y la tarjeta de Karajan, manteniendo el tono impersonal. Se describe como planteamiento comercial, sin atribuir ventas cerradas, clientes adquiridos ni una validación técnica del protocolo.
+
+### Conversaciones adicionales de Heliosat · 4 de noviembre de 2026
+
+El usuario confirma conversaciones con Pixxel, Lloyd’s, Sateliot y SES. Se añaden a la ficha de Heliosat junto a Lockheed Martin y Airbus, con la denominación «Conversaciones con el sector», y a su descripción para buscadores. No se atribuyen a estas organizaciones las cartas de intenciones ni acuerdos distintos de los documentados. Las grafías se contrastan en las webs oficiales: https://www.pixxel.space/, https://www.lloyds.com/market-resources/tools/crystal-plus/risk-location-guidance/class-of-business/space, https://sateliot.space/ y https://www.ses.com/company/about-us. En el contexto de seguros espaciales, «Lloyds» se interpreta como Lloyd’s.
